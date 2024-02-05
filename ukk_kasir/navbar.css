@@ -1,0 +1,91 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #007bff;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #ddd;
+    color: #007bff;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    color: #007bff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
